@@ -53,14 +53,23 @@ We will use the 'marketing' database, which contains information on marketing ca
 
 # Metrics Analyzed:
 
-- Return on Marketing Investment (ROMI)
-- Cost per Click (CPC)
-- Cost per Lead (CPL)
-- Customer Acquisition Cost (CAC)
-- Average Order Value (AOV)
-- Conversion Rate 1
-- Conversion Rate 2
-- Click-through Rate (CTR)
+- Return on Marketing Investment (ROMI):
+  	> Return on marketing investments, how effective is marketing campaign, one metric that shows effectiveness of every rupee spent. It is calculated  It is calculated ( Total earning (Revenue) - Marketing cost ) / Marketing cost ).
+- Cost per Click (CPC):
+> How much does it cost us to attract 1 click (on average) (Marketing spending/Clicks).
+- Cost per Lead (CPL):
+>	How much does it cost us to attract 1 lead (on average) (Marketing spending/Leads).
+- Customer Acquisition Cost (CAC):
+> How much does it cost us to attract 1 order (on average)(marketing spend/ orders).
+- Average Order Value (AOV):
+>	Average order value for this campaign (Revenue/Number of Orders).
+- Conversion Rate 1:
+> Conversion from visitors to leads for this campaign (Leads/Click).
+- Conversion Rate 2:
+> Conversion rate from leads to sales (Orders/Leads).
+- Click-through Rate (CTR):
+> Percentage of people who clicked at banner (Clicks/ Impressions).
 - Gross Profit
+> Profit or loss after deducting marketing cost (Revenue-Marketing spending).
 
 These metrics provide actionable insights for evaluating campaign effectiveness and making informed business decisions.
