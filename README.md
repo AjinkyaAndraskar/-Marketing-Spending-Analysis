@@ -57,7 +57,7 @@ We will use the 'marketing' database, which contains information on marketing ca
 # Metrics Analyzed:
 
 - Return on Marketing Investment (ROMI):
-   > Return on marketing investments, how effective is marketing campaign, one metric that shows effectiveness of every rupee spent. It is calculated  It is calculated ( Total earning (Revenue) - Marketing cost ) / Marketing cost ).
+   > Return on marketing investments, how effective is marketing campaign, one metric that shows effectiveness of every rupee spent. It is calculated ( Total earning (Revenue) - Marketing cost ) / Marketing cost ).
 - Cost per Click (CPC):
    > How much does it cost us to attract 1 click (on average) (Marketing spending/Clicks).
 - Cost per Lead (CPL):
