@@ -9,7 +9,7 @@
 - In this project, we will analyze marketing spending data to gain insights into the effectiveness of various campaigns. 
 - We will utilize SQL to extract, transform, and analyze the data.
 - The analysis will help us understand the factors influencing campaign performance and provide recommendations for improvement.
-- We will examine the relationship between different variables such as campaign date, revenue, conversion rates, and average order values.
+- We will examine the relationship between different variables such as campaign date, revenue, conversion rates, and average order values and geographic targeting.
 
 # Data:
 
@@ -25,6 +25,9 @@ We will use the 'marketing' database, which contains information on marketing ca
 - Leads: How many people signed up and left their credentials
 - Orders: How many people paid for the product
 - Revenue: How much money we earned
+- Geotype: Type of geographic location (e.g., Borough, CD, Citywide, UHF42)
+- Geo join id: Unique identifier for the geographic location
+- Geo place name: Name of the geographic location.
 
 # Approach:
 
@@ -37,7 +40,7 @@ We will use the 'marketing' database, which contains information on marketing ca
 - Examine the performance of campaigns based on the date, identifying the dates with the highest spending, highest revenue, and varying conversion rates. Calculate average order values for different dates.
 - Analyze buyer activity, comparing average revenue on weekdays and weekends.
 - Evaluate the effectiveness of different types of campaigns, such as social, banner, influencer, or search.
-- Determine the better geo locations for targeting, comparing tier 1 and tier 2 cities.
+- Determine the better geographic locations for targeting, comparing boroughs, CDs, citywide, and UHF42.
 - Interpret the results and provide recommendations for improving campaign effectiveness.
 - Use the insights gained from the analysis to make data-driven decisions and drive business improvements.
 
@@ -54,22 +57,22 @@ We will use the 'marketing' database, which contains information on marketing ca
 # Metrics Analyzed:
 
 - Return on Marketing Investment (ROMI):
-  	> Return on marketing investments, how effective is marketing campaign, one metric that shows effectiveness of every rupee spent. It is calculated  It is calculated ( Total earning (Revenue) - Marketing cost ) / Marketing cost ).
+   > Return on marketing investments, how effective is marketing campaign, one metric that shows effectiveness of every rupee spent. It is calculated  It is calculated ( Total earning (Revenue) - Marketing cost ) / Marketing cost ).
 - Cost per Click (CPC):
-> How much does it cost us to attract 1 click (on average) (Marketing spending/Clicks).
+   > How much does it cost us to attract 1 click (on average) (Marketing spending/Clicks).
 - Cost per Lead (CPL):
->	How much does it cost us to attract 1 lead (on average) (Marketing spending/Leads).
+   > How much does it cost us to attract 1 lead (on average) (Marketing spending/Leads).
 - Customer Acquisition Cost (CAC):
-> How much does it cost us to attract 1 order (on average)(marketing spend/ orders).
+   > How much does it cost us to attract 1 order (on average)(marketing spend/ orders).
 - Average Order Value (AOV):
->	Average order value for this campaign (Revenue/Number of Orders).
+   > Average order value for this campaign (Revenue/Number of Orders).
 - Conversion Rate 1:
-> Conversion from visitors to leads for this campaign (Leads/Click).
+   > Conversion from visitors to leads for this campaign (Leads/Click).
 - Conversion Rate 2:
-> Conversion rate from leads to sales (Orders/Leads).
+   > Conversion rate from leads to sales (Orders/Leads).
 - Click-through Rate (CTR):
-> Percentage of people who clicked at banner (Clicks/ Impressions).
+   > Percentage of people who clicked at banner (Clicks/ Impressions).
 - Gross Profit
-> Profit or loss after deducting marketing cost (Revenue-Marketing spending).
+   > Profit or loss after deducting marketing cost (Revenue-Marketing spending).
 
 These metrics provide actionable insights for evaluating campaign effectiveness and making informed business decisions.
